@@ -1,5 +1,5 @@
 function Splash(props) {
-    return <h1 className="font-sans text-4xl text-black font-geist-sans" {...props}>
+    return <h1 className="font-elms font-medium text-4xl text-black" {...props}>
         {props.children}
     </h1>
 }
