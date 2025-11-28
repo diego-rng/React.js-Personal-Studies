@@ -1,4 +1,3 @@
-import React from "react";
 import Splash from "./Splash";
 import { LockKeyhole } from "lucide-react";
 
@@ -14,7 +13,7 @@ export default function App() {
             <Splash>Gestão financeira <br /><b className="text-[#03A596]">segura</b> e dados <br />com <b className="text-[#03A596]">inteligência</b></Splash>
           </div>
           <div>
-            <img src={login.src} className="w-125 left-50 -bottom-20 z-50 absolute" alt="Login illustration"/>
+            <img src={login.src} className="w-125 left-10 -bottom-20 z-50 absolute" alt="Login illustration"/>
           </div>
         </div>
 
